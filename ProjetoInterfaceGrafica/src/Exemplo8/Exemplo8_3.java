@@ -53,6 +53,11 @@ public class Exemplo8_3 extends javax.swing.JFrame {
                 jbTeimosoMouseExited(evt);
             }
         });
+        jbTeimoso.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbTeimosoActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -92,6 +97,10 @@ jbTeimoso.setBounds(50, 120, 100, 25);        // TODO add your handling code her
     private void jbTeimosoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jbTeimosoMouseExited
      jbTeimoso.setBounds(50, 70, 100, 25);   // TODO add your handling code here:
     }//GEN-LAST:event_jbTeimosoMouseExited
+
+    private void jbTeimosoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbTeimosoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbTeimosoActionPerformed
 
     /**
      * @param args the command line arguments

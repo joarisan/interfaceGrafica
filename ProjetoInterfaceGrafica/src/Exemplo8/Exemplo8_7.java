@@ -35,7 +35,7 @@ public class Exemplo8_7 extends javax.swing.JFrame {
         jtResult = new javax.swing.JTextField();
         jbCalcular = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setText("VALOR");

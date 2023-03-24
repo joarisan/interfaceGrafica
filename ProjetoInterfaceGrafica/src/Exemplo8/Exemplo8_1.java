@@ -38,12 +38,22 @@ public class Exemplo8_1 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jBtntLogar.setBackground(new java.awt.Color(102, 255, 51));
-        jBtntLogar.setMnemonic('L');
+        jBtntLogar.setMnemonic('E');
         jBtntLogar.setText("Logar");
         jBtntLogar.setToolTipText("Logar");
+        jBtntLogar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jBtntLogarMouseClicked(evt);
+            }
+        });
         jBtntLogar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jBtntLogarActionPerformed(evt);
+            }
+        });
+        jBtntLogar.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jBtntLogarKeyPressed(evt);
             }
         });
 
@@ -117,6 +127,24 @@ public class Exemplo8_1 extends javax.swing.JFrame {
            jTxtLogin.requestFocus();
        }
     }//GEN-LAST:event_jBtntLogarActionPerformed
+
+    private void jBtntLogarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jBtntLogarKeyPressed
+         String senha = String.valueOf(jTxtSenha.getText());
+       if(jTxtLogin.getText().equals("java8")&& senha.equals("java8")){
+           Exemplo8_2 telaprincipal = new Exemplo8_2();
+           telaprincipal.setVisible(true);
+           dispose();
+       }else{
+           JOptionPane.showMessageDialog(null,"Usuário ou senha incorrettos!!!");
+           jTxtLogin.setText("");
+           jTxtSenha.setText(null);
+           jTxtLogin.requestFocus();
+       }
+    }//GEN-LAST:event_jBtntLogarKeyPressed
+
+    private void jBtntLogarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBtntLogarMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jBtntLogarMouseClicked
 
     /**
      * @param args the command line arguments

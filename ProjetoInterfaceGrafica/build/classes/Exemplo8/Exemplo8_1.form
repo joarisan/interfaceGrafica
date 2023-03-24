@@ -78,12 +78,14 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="33" green="ff" red="66" type="rgb"/>
         </Property>
-        <Property name="mnemonic" type="int" value="76"/>
+        <Property name="mnemonic" type="int" value="69"/>
         <Property name="text" type="java.lang.String" value="Logar"/>
         <Property name="toolTipText" type="java.lang.String" value="Logar"/>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jBtntLogarMouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtntLogarActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jBtntLogarKeyPressed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBtnCancelar">
