@@ -34,7 +34,11 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         jmExemplo8_5 = new javax.swing.JMenuItem();
         jmExemplo8_9 = new javax.swing.JMenuItem();
         jmExemplo8_8 = new javax.swing.JMenuItem();
-        jMenuItem1 = new javax.swing.JMenuItem();
+        jmExemplo8_10 = new javax.swing.JMenuItem();
+        jmExemplo8_7 = new javax.swing.JMenuItem();
+        jmExemplo8_12 = new javax.swing.JMenuItem();
+        jmExemplo8_13 = new javax.swing.JMenuItem();
+        jmExemplo8_14 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -55,7 +59,7 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         });
         jmExemplo8_4.add(jmExemplo8_3);
 
-        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/java.png"))); // NOI18N
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
         jMenuItem2.setText("Exemplo8_4");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,7 +68,7 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         });
         jmExemplo8_4.add(jMenuItem2);
 
-        jmExemplo8_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/java.png"))); // NOI18N
+        jmExemplo8_5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
         jmExemplo8_5.setText("Exemplo8_5");
         jmExemplo8_5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,7 +77,7 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         });
         jmExemplo8_4.add(jmExemplo8_5);
 
-        jmExemplo8_9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/java.png"))); // NOI18N
+        jmExemplo8_9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
         jmExemplo8_9.setText("Exemplo8_9");
         jmExemplo8_9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,7 +86,7 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         });
         jmExemplo8_4.add(jmExemplo8_9);
 
-        jmExemplo8_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/java.png"))); // NOI18N
+        jmExemplo8_8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
         jmExemplo8_8.setText("Exemplo8_8");
         jmExemplo8_8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,14 +95,45 @@ public class Exemplo8_2 extends javax.swing.JFrame {
         });
         jmExemplo8_4.add(jmExemplo8_8);
 
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/java.png"))); // NOI18N
-        jMenuItem1.setText("Exemplo8_10");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        jmExemplo8_10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
+        jmExemplo8_10.setText("Exemplo8_10");
+        jmExemplo8_10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                jmExemplo8_10ActionPerformed(evt);
             }
         });
-        jmExemplo8_4.add(jMenuItem1);
+        jmExemplo8_4.add(jmExemplo8_10);
+
+        jmExemplo8_7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
+        jmExemplo8_7.setText("Exemplo8_7");
+        jmExemplo8_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmExemplo8_7ActionPerformed(evt);
+            }
+        });
+        jmExemplo8_4.add(jmExemplo8_7);
+
+        jmExemplo8_12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
+        jmExemplo8_12.setText("Exemplo8_12");
+        jmExemplo8_12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmExemplo8_12ActionPerformed(evt);
+            }
+        });
+        jmExemplo8_4.add(jmExemplo8_12);
+
+        jmExemplo8_13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
+        jmExemplo8_13.setText("Exemplo8_13");
+        jmExemplo8_13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmExemplo8_13ActionPerformed(evt);
+            }
+        });
+        jmExemplo8_4.add(jmExemplo8_13);
+
+        jmExemplo8_14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageGif/4.gif"))); // NOI18N
+        jmExemplo8_14.setText("Exemplos8_14");
+        jmExemplo8_4.add(jmExemplo8_14);
 
         jMenuBar1.add(jmExemplo8_4);
 
@@ -148,9 +183,24 @@ public class Exemplo8_2 extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jmExemplo8_9ActionPerformed
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void jmExemplo8_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmExemplo8_10ActionPerformed
   Exemplo8_10 exemplo10 = new Exemplo8_10();
-        exemplo10.setVisible(true);    }//GEN-LAST:event_jMenuItem1ActionPerformed
+        exemplo10.setVisible(true);    }//GEN-LAST:event_jmExemplo8_10ActionPerformed
+
+    private void jmExemplo8_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmExemplo8_7ActionPerformed
+     Exemplo8_7 exemplo7 = new Exemplo8_7();
+        exemplo7.setVisible(true);    // TODO add your handling code here:
+    }//GEN-LAST:event_jmExemplo8_7ActionPerformed
+
+    private void jmExemplo8_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmExemplo8_12ActionPerformed
+        Exemplo8_12 exemplo12 = new Exemplo8_12();
+        exemplo12.setVisible(true);
+    }//GEN-LAST:event_jmExemplo8_12ActionPerformed
+
+    private void jmExemplo8_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmExemplo8_13ActionPerformed
+        Exemplo8_13 exemplo13 = new Exemplo8_13();
+        exemplo13.setVisible(true);
+    }//GEN-LAST:event_jmExemplo8_13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -189,12 +239,16 @@ public class Exemplo8_2 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenu jmArquivo;
+    private javax.swing.JMenuItem jmExemplo8_10;
+    private javax.swing.JMenuItem jmExemplo8_12;
+    private javax.swing.JMenuItem jmExemplo8_13;
+    private javax.swing.JMenuItem jmExemplo8_14;
     private javax.swing.JMenuItem jmExemplo8_3;
     private javax.swing.JMenu jmExemplo8_4;
     private javax.swing.JMenuItem jmExemplo8_5;
+    private javax.swing.JMenuItem jmExemplo8_7;
     private javax.swing.JMenuItem jmExemplo8_8;
     private javax.swing.JMenuItem jmExemplo8_9;
     // End of variables declaration//GEN-END:variables
